@@ -1,0 +1,46 @@
+/* JIA AI Girlfriend - Premium Global Styles */
+@import "tailwindcss";
+@import "uniwind";
+
+/* Custom Color Palette */
+:root {
+  /* Primary - Deep Romantic Rose */
+  --color-primary-50: #fdf2f4;
+  --color-primary-100: #fce7eb;
+  --color-primary-200: #f9d0d9;
+  --color-primary-300: #f4a9bb;
+  --color-primary-400: #eb7a97;
+  --color-primary-500: #df5278;
+  --color-primary-600: #cb3562;
+  --color-primary-700: #ab2550;
+  --color-primary-800: #8e2348;
+  --color-primary-900: #792143;
+
+  /* Secondary - Soft Purple Dream */
+  --color-secondary-50: #f5f3ff;
+  --color-secondary-100: #ede9fe;
+  --color-secondary-200: #ddd6fe;
+  --color-secondary-300: #c4b5fd;
+  --color-secondary-400: #a78bfa;
+  --color-secondary-500: #8b5cf6;
+  --color-secondary-600: #7c3aed;
+  --color-secondary-700: #6d28d9;
+  --color-secondary-800: #5b21b6;
+  --color-secondary-900: #4c1d95;
+
+  /* Accent - Warm Coral */
+  --color-accent-400: #fb7185;
+  --color-accent-500: #f43f5e;
+  --color-accent-600: #e11d48;
+
+  /* Dark Theme */
+  --bg-dark-primary: #0a0a0f;
+  --bg-dark-secondary: #14141f;
+  --bg-dark-tertiary: #1e1e2d;
+  --bg-dark-card: #252538;
+
+  /* Gradients */
+  --gradient-romantic: linear-gradient(135deg, #df5278 0%, #8b5cf6 100%);
+  --gradient-sunset: linear-gradient(135deg, #f43f5e 0%, #fb923c 100%);
+  --gradient-dream: linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%);
+}

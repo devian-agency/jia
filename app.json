@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "userInterfaceStyle": "automatic",
+    "orientation": "default",
+    "name": "jia",
+    "slug": "jia",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.jia.app",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.jia.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#000000"
+      }
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#00000000",
+      "translucent": true
+    },
+    "updates": {
+      "enabled": false,
+      "fallbackToCacheTimeout": 0
+    },
+    "web": {
+      "output": "static"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./src/fonts/instrument.ttf"
+          ],
+          "android": {
+            "fonts": [
+              {
+                "fontFamily": "instrument",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/fonts/instrument.ttf",
+                    "weight": 700
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "expo-router"
+    ],
+    "experiments": {
+      "tsconfigPaths": true
+    }
+  }
+}
